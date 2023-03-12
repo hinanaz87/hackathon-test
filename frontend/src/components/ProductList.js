@@ -8,7 +8,7 @@ const ProductList = ({updateCartFunction}) => {
      const [cart, setCart] = useState(MyCart || []);
 
     function fetchProducts(){
-        axios('https://odd-gold-squid-robe.cyclic.app/displayproducts')
+        axios('https://lazy-red-chicken-suit.cyclic.app//displayproducts')
         .then(res=>{
             console.log(res.data)
             setProducts(res.data)
@@ -57,7 +57,7 @@ const searchHandle = async (e) =>{
   let key = e.target.value;
   
   if(key){
-    let result =await fetch (`https://odd-gold-squid-robe.cyclic.app/search/${key}`);
+    let result =await fetch (`https://lazy-red-chicken-suit.cyclic.app/search/${key}`);
     result = await result.json();
     if(result){
       setProducts(result)

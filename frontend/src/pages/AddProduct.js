@@ -82,7 +82,7 @@ const [id, setId] = useState("")
   
     axios({
       method: 'post',
-      url: "https://odd-gold-squid-robe.cyclic.app/newproduct",
+      url: "https://lazy-red-chicken-suit.cyclic.app/newproduct",
       data: formData,
       headers: { 'Content-Type': 'multipart/form-data' },
       //  withCredentials: true

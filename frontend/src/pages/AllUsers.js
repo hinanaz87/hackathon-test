@@ -14,7 +14,7 @@ const AllUsers = () => {
   function fetchUsers() {
     axios({
       method: "GET",
-      url: `https://odd-gold-squid-robe.cyclic.app/users`,
+      url: `https://lazy-red-chicken-suit.cyclic.app/users`,
       headers: {
         authorization: `bearer ${JSON.parse(localStorage.getItem("token"))}`,
         "Content-Type": "application/json",

@@ -23,7 +23,7 @@ const AddProduct = () => {
   const navigate = useNavigate();
 
   const loadProduct = async () => {
-    const result = await axios.get(`https://odd-gold-squid-robe.cyclic.app/product/${id}`, {
+    const result = await axios.get(`https://lazy-red-chicken-suit.cyclic.app/product/${id}`, {
       headers: {
         "Content-Type": "application/json",
         authorization: `bearer ${JSON.parse(localStorage.getItem("token"))}`,

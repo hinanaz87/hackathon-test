@@ -45,7 +45,7 @@ const Login = () => {
 
     if (isValid) {
       // ------------INTEGRATING LOGIN API-------------
-      let result = await fetch("https://odd-gold-squid-robe.cyclic.app/login", {
+      let result = await fetch("https://lazy-red-chicken-suit.cyclic.app/login", {
         method: "post",
         body: JSON.stringify(userDetails),
         headers: {

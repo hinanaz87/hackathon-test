@@ -20,7 +20,7 @@ const EditUser = () => {
   const navigate = useNavigate();
 
   const loadUser = async () => {
-    const result = await axios.get(`https://odd-gold-squid-robe.cyclic.app/user/${id}`, {
+    const result = await axios.get(`https://lazy-red-chicken-suit.cyclic.app/user/${id}`, {
       headers: {
         "Content-Type": "application/json",
         authorization: `bearer ${JSON.parse(localStorage.getItem("token"))}`,
@@ -107,7 +107,7 @@ const EditUser = () => {
       setData(true);
 
       // --------SENDING DATA TO MONGO DB-----------
-      let result = await fetch(`https://odd-gold-squid-robe.cyclic.app/user/${id}`, {
+      let result = await fetch(`https://lazy-red-chicken-suit.cyclic.app/user/${id}`, {
         method: "put",
         body: JSON.stringify(newData),
         headers: {

@@ -108,7 +108,7 @@ const Register = () => {
       setData(true);
 
       // -----------ADDING ADMIN-----------
-      let result = await fetch("https://odd-gold-squid-robe.cyclic.app/register", {
+      let result = await fetch("https://lazy-red-chicken-suit.cyclic.app/register", {
         method: "post",
         body: JSON.stringify(newData),
         headers: {

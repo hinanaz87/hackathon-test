@@ -14,7 +14,7 @@ const AllProducts = () => {
   function fetchProducts() {
     axios({
       method: "GET",
-      url: "https://odd-gold-squid-robe.cyclic.app/products",
+      url: "https://lazy-red-chicken-suit.cyclic.app/products",
       headers: {
         authorization: `bearer ${JSON.parse(localStorage.getItem("token"))}`,
         "Content-Type": "application/json",
